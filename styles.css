@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  line-height: 1.5;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+html, body {
+  margin: 0
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.Page {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.SearchForm {
+  padding: 0 3rem 8rem;
+  margin: auto;
+  max-width: 58rem;
+  width: 100%;
+}
+
+.SearchInput {
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.06);
+  display: block;
+  padding: 1rem 1.5rem;
+  font-size: 1.6rem;
+  line-height: 1;
+  width: 100%;
+}
+
+.SearchInput:focus {
+  box-shadow: 0 0 0 1px dodgerblue, 0 2px 3px rgba(0, 0, 0, 0.06);
+  border-color: dodgerblue;
+  outline: none;
+}
