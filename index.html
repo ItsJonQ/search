@@ -6,9 +6,9 @@
   <link rel='stylesheet' href='styles.css'>
 </head>
 <body>
-  <div class='Page'>
-    <form action='https://duckduckgo.com/' class='SearchForm' onsubmit='doSearch(event)'>
-      <input type='text' name='q' class='SearchInput' autofocus placeholder='Search...'>
+  <div class='Page' onclick='doFocusSearch()'>
+    <form class='SearchForm' onsubmit='doSearch(event)'>
+      <input type='text' name='q' class='SearchInput' autofocus autocomplete='on' placeholder='Search...'>
     </form>
   </div>
   <script src='scripts.js'></script>
