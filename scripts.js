@@ -6,6 +6,12 @@ const doSearch = (event) => {
   if (value.indexOf('localhost:') === 0) {
     return window.location.href = `http://${value}`
   } else if (
+    value.indexOf('.com') >= 0 ||
+    value.indexOf('.ca') >= 0 ||
+    value.indexOf('.io') >= 0
+  ) {
+    return window.location.href = `http://${value}`
+  } else if (
     value.indexOf('http:') >= 0 ||
     value.indexOf('https:') >= 0 ||
     value.indexOf('localhost:') >= 0
