@@ -8,7 +8,10 @@
 <body>
   <div class='Page' onclick='doFocusSearch()'>
     <form class='SearchForm' onsubmit='doSearch(event)'>
-      <input type='text' name='q' class='SearchInput' autofocus autocomplete='on' placeholder='Search...'>
+      <div class='SearchInputWrapper'>
+        <div class='SearchIcon'>&#9906;</div>
+        <input type='text' name='q' class='SearchInput' autofocus autocomplete='on' placeholder='Search...'>
+      </div>
     </form>
   </div>
   <script src='scripts.js'></script>
