@@ -1,5 +1,5 @@
 const SearchInputNode = document.querySelector('.SearchInput')
-const searchEngineUrl = 'https://duckduckgo.com/?q='
+const searchEngineUrl = 'https://google.ca/?q='
 const doSearch = (event) => {
   event.preventDefault()
   const value = SearchInputNode.value
